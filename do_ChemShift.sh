@@ -8,6 +8,11 @@ calShift=true
 for i in 3
 do
 
+  if [ ! -d "${i}" ]
+  then
+      mkdir ${i}
+  fi
+
 cd $i
 mkdir pdb
 
