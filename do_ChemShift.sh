@@ -1,5 +1,5 @@
 source $cmyc/code/environ_set.sh
-condition='c36m'
+condition='c36mProt'
 set_parms
 
 extractPDB=true

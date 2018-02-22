@@ -1,5 +1,5 @@
 source $cmyc/code/environ_set.sh
-condition='c36m'
+condition='c36mProt'
 set_parms
 
 for i in 1 2 3
